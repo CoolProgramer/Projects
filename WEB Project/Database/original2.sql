@@ -1,0 +1,76 @@
+-- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1:3306
+-- Generation Time: May 28, 2018 at 07:55 PM
+-- Server version: 5.7.21
+-- PHP Version: 5.6.35
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `pakistani cinema`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `original2`
+--
+
+DROP TABLE IF EXISTS `original2`;
+CREATE TABLE IF NOT EXISTS `original2` (
+  `id` int(11) DEFAULT NULL,
+  `name` varchar(500) DEFAULT NULL,
+  `content` varchar(5000) DEFAULT NULL,
+  `casting` varchar(1000) DEFAULT NULL,
+  `images` varchar(5000) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `original2`
+--
+
+INSERT INTO `original2` (`id`, `name`, `content`, `casting`, `images`) VALUES
+(1, NULL, NULL, NULL, './TV-Dramas.JPG'),
+(2, 'Malika-e-Aliya', 'Malika-e-Aliya is a 2014 Pakistani drama serial directed by Syed Asim Ali and written by Nadia Akhtar. It is a production of A&B Entertainment. The drama was first aired 8 April 2014, on Geo Entertainment but due to a ban on the channel, only 10 episodes could be shown. From 8 September 2014, it was continued with new episodes, the first day after the ban was lifted from channel. Malika-e-Aliya is the story of Alia and her evil plans to become the sole owner of her in-laws wealth, and the act that she puts on to convince everyone in the Baig household that all she wants is to provide them the same home and its comfort which their mother and Mr. Baig’s late wife once provided them with. Season 2 began airing on 9 February 2015. it was also aired in India on Zindagi , premiering on 11 May 2016. The shows ended its run in India on July 18, 2016.', 'S1 & S2: Maria Wasti as Malika Aliya, Faiq Khan as Noman Baig, Sohail Sameer as Furqan Baig, Shahzad Raza as Haji Sahab ', 'http://harpalgeo.tv/wp-content/uploads/sites/14/2014/12/151.jpg'),
+(3, 'Khuda Aur Muhabbat', 'Khuda Aur Muhabbat is a 2011 Pakistani drama serial that aired on Geo TV. It is written by Hashim Nadeem and directed by Anjum Shehzad. Imran Abbas Naqvi and Sadia Khan are featured as the lead role while Faisal Fazila Qazi, Ahmed Jahanzeb, and Firdous Jamal portray supporting roles. The lyrics of serials title song karun sajda aik khuda ko were penned by producer Javeria Saud.', 'S1 (2011) & S2 (2016)::Imran Abbas as Hammad, Salman Shahid as Moulvi Aleemuddin, Sadia Khan as Imaan, Sadia Khan as Imaan, Kubra Khan as Sarah Issac ', 'https://i.ytimg.com/vi/ndC6n7Z1M3o/maxresdefault.jpg'),
+(4, 'Tanhaiyaan', 'Tanhaiyaan is a 1985 Pakistani drama serial which is now considered a cult classic. Tanhaiyan Naye Silsilay teletcast in 2012 is the sequel of 27-year-old serial Tanhaiyaan. The drama serial was directed by the legendary Shahzad Khalil and was written by the famous drama writer Haseena Moin.', 'S1 (1985):Shehnaz Sheikh as Zara, Marina Khan as Sania, Badar Khalil as Ani, Qazi Wajid as Farhan. S2 2012:Alishba Yousuf as Zenia, Shehryar Munawar Siddiqui as Zarak, Badar Khalil as Aani, Marina Khan as Saniya', 'https://desirantsnraves.files.wordpress.com/2012/10/tns_cover.jpg'),
+(5, NULL, NULL, NULL, 'https://www.tvonepk.tv/wp-content/uploads/2018/01/Mon-Fri-New-Web-Cover.jpg'),
+(7, 'Diyar-e-Dil', 'Diyar-e-Dil is a Pakistani television drama serial, that originally aired on the Hum TV from 17 March 2015 to 27 October 2015, comprising a total of 33 episodes. Diyar-e-Dil follows the lives of a dysfunctional family led by Agha Jaan and his grandchildren, Wali and Farah. The story is told in a heavily serialized manner. Each episode follow the lives of Wali and Faarah who became the cause of reuniting the family that fell apart because of Agha Jaans eldest son Behroze, despite their troubled relation.', 'Osman Khalid Butt as Wali Suhaib Khan, Hareem Farooq as Arjumand Suhaib Khan, Maya Ali as Faarah Wali Khan, Sanam Saeed as Ruhina Behroze Khan ', 'https://upload.wikimedia.org/wikipedia/en/1/16/Title_Screen_of_Hum_TV%27s_Serial_Diyar-e-Dil.jpg'),
+(8, 'Mann Mayal', 'Mann Mayal is a Pakistani television romantic drama serial that aired on Hum TV from 25 January 2016 to 5 September 2016. It is written by Samira Fazal and directed by Haseeb Hassan. The series centers on the lives of Manahil and Salahuddin who fall in love with each other, but due to their social class differences Salahuddin refuses to marry Manahil. She then lives in an abusive marriage, while Salahuddin succeeds in his ambitions. Manahils life gets worse and she takes help from Salahuddin for her children, leading them to fall for each other once again.', ' Hamza Ali Abbasi as Salahuddin Shahid, Ayesha Khan as Jeena, Gohar Rasheed as Mikaeel Shahaab, Maya Ali as Manahil Javed/ \"Mannu\" ', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW1f5soB6wRDZxAzxMs3G_yyC2rgnw8lrSjAIE2qN3UFdifWoLtg'),
+(9, 'Udaari', 'Udaari is a Pakistani television series that aired on Hum TV. It premiered on 10 April 2016 and is co-produced by the creative head Momina Duraid with Kashaf Productions. The show is written by Farhat Ishtiaq and directed by Mohammed Ehteshamuddin. The story of the series focuses on the social and economic marginalization of citizens in Pakistani society alongside highlighting deeply rooted problems in Pakistan such as child sexual abuse, the uptake of music as a career, false police involvements and negative political supports, in order to break the myths and taboos which surround these issues by providing real solutions to serious problems. It centers on the lives of Sheedan and Sajida with Sheedan holding criticism due her local music career and Sajida struggle against her husband.', 'Samiya Mumtaz as Sajida Bibi (Sajjo/Tahira),Ahsan Khan as Imtiaz Ali Sheikh,Bushra Ansari as Rasheeda Bibi (Sheedan) ', 'https://upload.wikimedia.org/wikipedia/en/5/56/Title_Screen_of_Hum_TV%27s_Udaari.jpg'),
+(10, NULL, NULL, NULL, 'https://www.tvonepk.tv/wp-content/uploads/2018/01/Mon-Fri-New-Web-Cover.jpg'),
+(12, 'Pyarey Afzal', 'Pyarey Afzal or Pyaare Afzal is a Pakistani romantic drama serial that aired on ARY Digital, directed by Nadeem Baig, written by Khalil-ur-Rehman Qamar and production of Six Sigma Entertainment. The drama starred Hamza Ali Abbasi and Ayeza Khan in lead roles.', 'Hamza Ali Abbasi as Afzal Subhanullah, Sana Javed as Lubna Ibrahim, Aiza Khan as Farah Ibrahim, Saba Faisal as Irsa Ibrahim, Shehryar Zaidi as Sheikh Ibrahim', 'https://c.tribune.com.pk/2015/08/945853-pyaareafzal-1440668718-714-640x480.jpg'),
+(13, 'Alvida', 'Alvida was a 2015 Pakistani romantic drama serial. It was directed by Shehzad Kashmiri, produced by Momina Duraid, Humayun Saeed, Shehzad Naseeb and written by Samira Fazal. It starred couples of Dil-e-Muztar, Sanam Jung, Imran Abbas Naqvi along with Naveen Waqar, Zahid Ahmed and Sarah Khan in lead roles. The drama serial premiered on 11 February 2015 on Hum TV, and aired Wednesday 8PM.It gathered great acclaim for the acting of the stars respectively.', 'Sanam Jung as Haya (Female Lead), Zahid Ahmed as Ramiz (Antagonist), Sarah Khan as Farisa (Antagonist), Imran Abbas as Hadi (Male Lead)', 'https://upload.wikimedia.org/wikipedia/en/2/28/Alvida_2015.png'),
+(14, 'Shehr-e-Zaat', 'Shehr-e-Zaat is a 2012 Pakistani spiritual romantic drama serial based on the novel of the same name by Umera Ahmed. It is directed by Sarmad Sultan Khoosat, and produced by Momina Duraid and Abdullah Kadwani. It stars Mahira Khan, Mikaal Zulfiqar and Mohib Mirza in the leads.', 'Mahira Khan as Falak Sher Afghan, Nadia Afghan as Tabinda, Mohib Mirza as Hamza Malik ', 'https://upload.wikimedia.org/wikipedia/en/3/37/Shehr-e-Zaat_Hum_TV.jpg'),
+(15, NULL, NULL, NULL, 'https://www.tvonepk.tv/wp-content/uploads/2018/01/Mon-Fri-New-Web-Cover.jpg'),
+(17, 'Bulbulay', ' Bulbulay is a family sitcom about an unconventional Pakistani family. The show is directed by Rana Rizwan, written by Ali Imran and Saba Hassan, and produced by Nabeel, who also played the lead character of the show.[4] The show gained popularity after the introduction of Hina Dilpazeer, who plays Mumtaz (Momo).', 'Nabeel as Nabeel, Ayesha Omar as Khoobsurat (Nabeels wife), Mehmood Aslam as Mehmood Sahab', 'https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Bulbulay_drama_serial.jpg/250px-Bulbulay_drama_serial.jpg'),
+(18, 'Fifty Fifty', 'Fifty Fifty is a popular Pakistan Television Corporation comedy series which was aired on the national television PTV during the early 1980s, based loosely on the American comedy show Saturday Night Live.[1] The programme was a sketch comedy considered by many critics as one of the best television shows to be produced in Pakistan.[2] Along with pop singer Nazia Hassan, Fifty Fifty was one of the pop-culture phenomena of the 1980s in South Asia.', 'Bushra Ansari, Majid Jehangir, Latif Kapadia, Ismail Tara, Javed Sheikh ', 'https://upload.wikimedia.org/wikipedia/en/5/55/AVPPT16-b.jpg'),
+(19, 'Ladies Park', 'Ladies Park is a 2011 Pakistani drama comedy serial broadcasting by Geo TV. It is directed by Nadeem Baig and written by Muhammad Younis Butt, casting Mahnoor Baloch, Humayun Saeed, Nadia Hussain, Sana Askari, Asif Raza Mir, Arjumand Rahim, Shahood Alvi and Ayesha Omar.[2] It was first aired on 22 February 2011.', 'Humayun Saeed as Sarmad (Sarmi), Asif Raza Mir Sabas husband, Mahnoor Baloch as Soniya, Nadia Hussain as Saba ', 'https://i.ytimg.com/vi/2cv-rxmF5OA/hqdefault.jpg'),
+(20, 'Family Front', 'Family Front was a 1997 Pakistani comedy drama sitcom. It was broadcast by the Pakistan Television Corporation (PTV World, now PTV News). Sitcom was directed by Waseem Abbas and written by Muhammad Younis Butt, starring Saba Hameed, Samina Ahmad, Waseem Abbas, Mira Hashmi, Iram Hassan, Shahzad Nasim and Naseem Vicky.[3] This comedy show became highly popular among the people and ran for many TV seasons. A spin-off sequel to the series, titled as Hum Sab Ajeeb Se Hain is currently airing on Aaj Entertainment.', 'Waseem Abbas as Azam, Naseem Vicky as Khushiya, Saba Hameed as Sumbal, Anjum Shahzad as Naveed \"Bobby\", Samina Ahmad as Nusrat ', 'https://cdn.mangobaaz.com/wp-content/uploads/2017/08/2hwli1f.png'),
+(21, 'Click here for Booking', NULL, NULL, 'https://www.tvonepk.tv/wp-content/uploads/2018/01/Mon-Fri-New-Web-Cover.jpg'),
+(22, 'Kitni Girhain Baqi Hain ', 'Kitni Girhain Baqi Hain is a Pakistani drama telefilm consisting of a collection of assorted love stories which premiered on 27 March  2011 on Hum TV.The series is based on short stories on real life situations. It aired every Friday at 9:10 pm. The series airs at weekends. Kitni Girhain Baqi Hain also aired in India on the channel Zee Zindagi and was narrated by Kirron Kher with the role of Sutradar. A second season was premiered on 30 October 2016, on the same network but with different cast.', 'Imran Abbas Naqvi as Ali in (Dekh Kabira Roya), Urwa Hocane as Maya, Angeline Malik as Angeline, Danish Taimoor in (Tere Bina & Poshak), Sajal Ali as Recurring Character', 'https://i.ytimg.com/vi/8hb43rl19pE/maxresdefault.jpg'),
+(23, 'Mera Saaein', 'Mera Saaein is a 2010 Pakistani political drama aired on ARY Digital. It was directed by Babar Javed, produced by A & B Entertainment, and written by Samira Fazal. In 2012 its sequel Mera Saaein 2 was aired on ARY Digital. Mera Saaein is known to be one of the best and most viewed Pakistani dramas of all time.', 'Aamina Sheikh as Naina Malik, Faisal Qureshi as Aarish, Savera Nadeem as Naima Malik, Mohib Mirza as Farhad, Beenish Chauhan as Zeena, Noman Ijaz as Malik Wajahatt, Sunita Marshall as Shazmeen Malik.', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6UY9qafJ0s_tOojX3FPeIAme-ZWhqvoauG3rUiLH2n2TYztRh'),
+(24, 'Behadd', 'Behadd is an award-winning 2013 Pakistani drama television film directed by Asim Raza produced by Momina Duraid and wriiten by Umera Ahmad. The telefilm stars Fawad Khan, Nadia Jamil, Sajjal Ali, Nadia Afgan, Adnan Siddiqui, Adnan Jaffar and Shamoon Abbasi in pivot roles. Behadd was premiered on 23 February 2013 by Hum TV. it was also aired in India on Zindagi, premiering on 30 August 2014.', 'Fawad Khan as Jamal \"Jo\" Ahmed, Nadia Afgan as Shafaq, Nadia Jamil as Masooma \"Mo\" Jamal, Sajal Ali as Maha', 'https://upload.wikimedia.org/wikipedia/en/5/5d/TV_Release_Poster_of_Behadd.jpg'),
+(25, 'Lala Begum', 'Lala Begum is a 2016 Pakistani drama short film directed by Mehreen Jabbar, written by Syed Mohammad Ahmed and co-produced by Shailja Kejriwal, Mehreen Jabbar and Vikas Sharma.', 'Marina Khan as Meher / Lala Begum, Syed Mohammad Ahmed, Saba Hameed as Sumbal, Humayun Saeed, Sonia Rehman Qureshi as Seher ', 'https://upload.wikimedia.org/wikipedia/en/a/a2/Lala_Begum.jpeg'),
+(26, NULL, NULL, NULL, 'https://upload.wikimedia.org/wikipedia/en/a/a2/Lala_Begum.jpeg'),
+(28, 'Humsafar', 'Humsafar is a Pakistani drama television series directed by Sarmad Sultan Khoosat, based on a novel of the same name written by Farhat Ishtiaq. It originally aired on Hum TV from 24 September 2011 to 3 March 2012, consisting of 23 episodes. It was preceded by Mastana Mahi and followed by Durr-e-Shahwar. The story revolves around the trials and tribulations of a married couple. ', 'Fawad Khan as Ashar Hussain, Mahira Khan as Khirad Ashar Hussain, Naveen Waqar as Sara Ajmal', 'https://upload.wikimedia.org/wikipedia/en/0/0a/Humsafar.png'),
+(29, 'Zindagi Gulzar Hai', 'Zindagi Gulzar Hai is a Pakistani drama, directed by Sultana Siddiqui and produced by Momina Duraid of Moomal Productions, which was broadcast on Hum TV. Based on the novel of the same name by Umera Ahmad,[4] it was first telecast from 30 November 2012 to May 2013 in Pakistan. The story revolves around two persons, opposite in thought and financial status. This serial has a strong female lead protagonist and was very popular among the female audience', 'Sanam Saeed as Kashaf Murtaza, Fawad Khan as Zaroon Junaid', 'https://upload.wikimedia.org/wikipedia/en/9/9c/Zindagi_Gulzar_Hai.jpg'),
+(30, 'Dastaan', 'Dastaan is a Pakistani TV series dramatized by Samira Fazal, and based on the novel Bano, by Razia Butt. It is based on the partition of the Indian Subcontinent and the resulting independence of Pakistan, and takes place between 1947 and 1956. The drama depicts the story of Bano, a girl from a close knit Muslim family living in Ludhiana (located in undivided Punjab) in the pre-1947 era. The story follows Bano and Hassan, as they face the trials and tribulations caused by the 1947 independence.', 'Fawad Khan as Hassan, Mehreen Raheel as Rabia, Sanam Baloch as Bano', 'https://upload.wikimedia.org/wikipedia/en/9/90/Hum_TV_drama_Dastaan_by_Haissam_Hussain.jpg'),
+(31, NULL, NULL, NULL, 'https://www.tvonepk.tv/wp-content/uploads/2018/01/Mon-Fri-New-Web-Cover.jpg');
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
