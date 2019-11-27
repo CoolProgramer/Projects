@@ -1,5 +1,5 @@
 # Projects
-Projects
+Some Recent Work
 
 
 ![](homepage.png)
